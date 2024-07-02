@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "prettier": "3.3.2",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/index.ts",
+    "build": "rimraf ./build && tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "@types/node": "^20.14.9",
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "csv-writer": "^1.6.0"
+  }
+}
